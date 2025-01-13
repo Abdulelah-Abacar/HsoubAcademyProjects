@@ -1,0 +1,81 @@
+.dashboard-layout {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.dashboard-body {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+.dashboard__title {
+  text-align: center;
+}
+
+.dashboard__balance-container {
+  margin: 10px 0;
+}
+
+.dashboard__balance-title {
+}
+
+.dashboard__balance-price {
+}
+
+.dashboard__history-title {
+  border-bottom: 1px solid #000;
+  width: fit-content;
+}
+
+.dashboard__transaction-container {
+  margin: 0 30px;
+}
+.dashboard__history-container {
+  margin: 0 30px;
+}
+
+.dashboard__transaction-title {
+  border-bottom: 1px solid #000;
+  width: fit-content;
+}
+
+.dashboard__graph-link {
+  text-align: center;
+  background-color: #2ecc71;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+}
+
+.nav {
+  padding: 10px;
+}
+
+.nav > select {
+  width: 100px;
+}
+
+.logout {
+  background-color: #e74c3c;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+
+.dashboard__history-transaction-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 30px;
+}

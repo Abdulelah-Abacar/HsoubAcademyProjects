@@ -1,0 +1,46 @@
+.main-container {
+  display: flex;
+  margin: 10px 0;
+}
+
+.delete-button {
+  background-color: #f32b32;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #f32b32e1;
+  transform: scale(0.98);
+}
+
+.history-container {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+  overflow-y: scroll;
+  max-height: 400px;
+}
+.history-item {
+  border-bottom: 1px solid #0000001a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex: 1;
+}
+
+.history-item:hover {
+  background-color: #0000001a;
+  padding: 7px 12px;
+}
+
+.history-item__text {
+}
+
+.history-item__amount {
+}

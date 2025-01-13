@@ -1,0 +1,22 @@
+{
+  "name": "electron-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/imgs/icon.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . todo-list-app --overwrite --asar --platform=win32 --arch=ia32 --icon=assets/imgs/icon.ico --prune=true --out=release-builds",
+    "package-linux": "electron-packager . todo-list-app --overwrite --asar --platform=linux --arch=x64 --icon=aassets/imgs/icon.png --prune=true --out=release-builds"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.2.2",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "jsstore": "^4.6.4"
+  }
+}
