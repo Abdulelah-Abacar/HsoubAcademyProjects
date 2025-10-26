@@ -1,0 +1,34 @@
+{
+  "short_name": "MyApp",
+  "name": "My Application",
+  "icons": [
+    {
+      "src": "/icons/figma.png",
+      "type": "image/png",
+      "sizes": "480x480"
+    },
+    {
+      "src": "/icons/figma.png",
+      "type": "image/png",
+      "sizes": "480x480"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/icons/figma.png",
+      "type": "image/png",
+      "sizes": "480x480"
+    },
+    {
+      "src": "/icons/figma.png",
+      "type": "image/png",
+      "sizes": "480x480"
+    }
+  ],
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0000bb",
+  "background_color": "#ffffff"
+}
